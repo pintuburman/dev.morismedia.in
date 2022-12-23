@@ -2056,6 +2056,9 @@ header.active-responsive-countries .top-bar .contact-info .globe-dropdown-conten
 
 .mega-menu .mega-menu-content .menu-img img {
   margin-bottom: 30px;
+  -webkit-box-shadow: 0 0 20px #dadada;
+          box-shadow: 0 0 20px #dadada;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 1024px) {
