@@ -12,7 +12,11 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+    if (localStorage.getItem("cookies_accept") != null) {
+        $("#CookiesBox").removeClass("opencookies_box");
+    }
     $("#closeCookies").click(function() {
+        localStorage.setItem("cookies_accept", "cookies_set");
         $("#CookiesBox").removeClass("opencookies_box");
     });
 });
