@@ -488,11 +488,19 @@ header .header-nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 1440px) {
   header .header-nav {
     padding: 0 15px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  header .header-nav:hover {
+    background-color: #56006C;
   }
 }
 
@@ -1779,6 +1787,12 @@ header.active-responsive-countries .top-bar .contact-info .globe-dropdown-conten
   padding-right: 20px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .mega-menu .mega-menu-content .menu-items ul li a {
+    width: 100%;
+  }
+}
+
 .mega-menu .mega-menu-content .menu-items ul li a svg {
   color: #161436;
 }
@@ -1824,6 +1838,7 @@ header.active-responsive-countries .top-bar .contact-info .globe-dropdown-conten
     padding: 3px;
     border: solid #000000;
     border-width: 0 2px 2px 0;
+    z-index: -1;
   }
 }
 
@@ -1908,6 +1923,7 @@ header.active-responsive-countries .top-bar .contact-info .globe-dropdown-conten
   display: block;
   font-weight: 300;
   text-transform: none;
+  color: #1D1B45 !important;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2056,9 +2072,6 @@ header.active-responsive-countries .top-bar .contact-info .globe-dropdown-conten
 
 .mega-menu .mega-menu-content .menu-img img {
   margin-bottom: 30px;
-  -webkit-box-shadow: 0 0 20px #dadada;
-          box-shadow: 0 0 20px #dadada;
-  border-radius: 10px;
 }
 
 @media only screen and (max-width: 1024px) {
