@@ -1891,9 +1891,7 @@
 @media screen and (max-width: 767px) {
   .btm_wrapper h1 .box_text::after,
   .btm_wrapper h3 .box_text::after {
-    -webkit-transform: rotate(15deg);
-            transform: rotate(15deg);
-    right: -35px;
+    display: none;
   }
 }
 

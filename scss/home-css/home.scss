@@ -1408,8 +1408,7 @@
                     background-position: center;
                     background-size: contain;
                     @media screen and (max-width: 767px) {
-                        transform: rotate(15deg);
-                        right: -35px;
+                        display: none;
                     }
                 }
             }
