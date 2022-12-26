@@ -1,5 +1,5 @@
 footer {
-  padding: 33px 20px;
+  padding: 33px 20px 100px;
   position: relative;
 }
 
@@ -108,7 +108,7 @@ footer .country-section .flag img {
 
 footer .country-section .country-name {
   display: none;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 13px;
   color: #41005A;
 }
@@ -152,7 +152,7 @@ footer .country-section .copy-right-text {
 
 @media only screen and (max-width: 767px) {
   footer .country-section .copy-right-text {
-    font-size: 9px;
+    font-size: 12px;
   }
 }
 

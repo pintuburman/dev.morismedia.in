@@ -1,5 +1,5 @@
 footer {
-    padding: 33px 20px;
+    padding: 33px 20px 100px;
     position: relative;
     .float_btn {
         position: fixed;
@@ -67,7 +67,7 @@ footer {
         }
         .country-name {
             display: none;
-            font-size: 9px;
+            font-size: 12px;
             line-height: 13px;
             color: #41005A;
             @media only screen and (max-width: 1024px) {
@@ -93,7 +93,7 @@ footer {
                 margin-top: 20px;
             }
             @media only screen and (max-width: 767px) {
-                font-size: 9px;
+                font-size: 12px;
             }
         }
     }

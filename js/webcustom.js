@@ -9,6 +9,14 @@ $(document).ready(function() {
     $("#closeSearch").click(function() {
         $("#searchBox").removeClass("opensearch_box");
     });
+
+    $("#Open_ty").click(function() {
+        $("#ty_box").removeClass("closed_ty_box");
+    });
+
+    $("#Open_enquiry_ty").click(function() {
+        $("#ty_enquiry_box").removeClass("closed_ty_box");
+    });
 });
 
 $(document).ready(function() {
