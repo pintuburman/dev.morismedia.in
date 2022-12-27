@@ -1,0 +1,239 @@
+.error_banner {
+    background-image: url("../../images/404-assets/404bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0 0;
+    &::before {
+        content: '';
+        background-image: url("../../images/404-assets/graphics2.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 1100px;
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        height: 450px;
+        justify-content: center;
+        @media screen and (max-width: 767px) {
+            height: auto;
+        }
+    }
+    .content_wrapper {
+        text-align: center;
+        position: relative;
+        max-width: 40%;
+        min-width: 410px;
+        @media screen and (max-width: 767px) {
+            min-width: 100%;
+            max-width: none;
+        }
+        label {
+            color: #ffffff;
+            font-size: 18px;
+            font-family: "Poppins", sans-serif;
+            margin: 0 0 10px 0;
+            font-weight: 600;
+            @media screen and (max-width: 767px) {
+                font-size: 14px;
+            }
+        }
+        h1 {
+            font-size: 50px;
+            color: #fff;
+            font-weight: 700;
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            @media screen and (max-width: 767px) {
+                font-size: 40px;
+            }
+            span {
+                color: #fff;
+                padding: 12px;
+                position: relative;
+                @media screen and (max-width: 767px) {
+                    padding: 8px;
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    right: -25px;
+                    top: -20px;
+                    width: 30px;
+                    height: 30px;
+                    background-image: url("../../images/404-assets/lines-icon-yellow.png");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    @media screen and (max-width: 767px) {
+                        right: -20px;
+                    }
+                }
+            }
+        }
+        h2 {
+            font-size: 35px;
+            color: #FDEC07;
+            font-weight: 600;
+            font-family: "Poppins", sans-serif;
+            margin: 50px 0 0;
+            @media screen and (max-width: 767px) {
+                font-size: 26px;
+                margin-top: 30px;
+            }
+        }
+        p {
+            font-size: 18px;
+            color: #FAFAFA;
+            font-family: "Poppins", sans-serif;
+            letter-spacing: 0.5px;
+            margin: 20px 0;
+        }
+        button {
+            background: #FCE900;
+            padding: 9px 15px;
+            color: #E1003E;
+            font-weight: 600;
+            border: 0;
+            transition: 0.3s ease-in-out;
+            border-radius: 10px;
+            &:hover {
+                background: #56006C;
+            }
+        }
+    }
+    .error_img {
+        position: absolute;
+        max-width: 35%;
+        right: 0;
+        @media screen and (max-width: 1024px) {
+            display: none;
+        }
+    }
+    .search_wrapper {
+        position: relative;
+        margin-top: 180px;
+        @media screen and (max-width: 767px) {
+            margin-top: 80px;
+        }
+        .search_input {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            position: relative;
+            input {
+                width: 100%;
+                padding: 10px 15px;
+                border-radius: 50px;
+                border: 0;
+                outline: 0;
+                @media screen and (max-width: 767px) {
+                    font-size: 14px;
+                }
+            }
+            .search_btnn {
+                position: absolute;
+                right: -10px;
+                top: -15px;
+                background-color: #E1003E;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                border: 0;
+                transition: 0.3s ease-in-out;
+                @media screen and (max-width: 767px) {
+                    width: 40px;
+                    height: 40px;
+                    top: 0;
+                    img {
+                        width: 20px;
+                    }
+                }
+                &:hover {
+                    background: #56006C;
+                }
+            }
+        }
+    }
+    h6 {
+        font-size: 30px;
+        color: #fff;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+        max-width: 500px;
+        margin: 0 auto 10px;
+        text-align: center;
+        position: relative;
+        @media screen and (max-width: 767px) {
+            font-size: 26px;
+        }
+        span {
+            color: #E60C35;
+            background-color: #FAE81A;
+            border-radius: 8px;
+            padding: 5px 40px 5px 5px;
+            position: relative;
+            @media screen and (max-width: 767px) {
+                display: block;
+                width: 250px;
+                margin: 5px auto;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                right: -15px;
+                bottom: 0;
+                width: 60px;
+                height: 60px;
+                background: url(../../images/header-assets/queries-side-img.svg);
+                background-position: 10px center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+    }
+    .faq_link {
+        font-size: 16px;
+        color: #FDEC07;
+        font-weight: 500;
+        text-align: center;
+        position: relative;
+        width: fit-content;
+        margin: 0 auto;
+        display: block;
+        transition: 0.3s ease-in-out;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .pink_btm {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+        background-color: #57006c1c;
+        padding: 20px 0;
+        margin-top: 40px;
+        text-align: center;
+        border-radius: 0 0 20px 20px;
+        a {
+            margin: 0 20px 10px 0;
+            font-size: 14px;
+            color: #FDEC07;
+            font-weight: 500;
+            transition: 0.3s ease-in-out;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
